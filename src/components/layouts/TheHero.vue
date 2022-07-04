@@ -11,9 +11,10 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm Tahrioui Hassan, a Morocco based Vue.js Developer , i never-stopping
-      love for learning new tech. I am specialising in Web Development with
-      Vue.js, Express, Node.js, PHP , Laravel,Python and Django.
+      I'm Tahrioui Hassan, a Morocco based full stack Developer , i
+      never-stopping love for learning new tech. I am specialising in Web
+      Development with Vue.js, Express, Node.js, PHP , Laravel,Python and
+      Django.
     </p>
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
