@@ -61,7 +61,7 @@
     </p>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
     <div class="flex flex-col gap-5">
-      <h3 class="font-theme_bold text-head_text text-3xl">Work</h3>
+      <h3 class="font-theme_bold text-head_text text-3xl">Experience</h3>
       <div class="flex flex-col gap-8 py-4">
         <a
           class="flex flex-col gap-1 sm:flex-row flex-nowrap justify-between items-start sm:gap-6"
