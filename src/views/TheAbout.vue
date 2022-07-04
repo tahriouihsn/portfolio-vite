@@ -15,7 +15,7 @@
       I'm currently working on
       <LinkBtn link="https://openmatch.io">OpenMatch.io</LinkBtn>, a job board
       with new features. I recently worked on
-      <LinkBtn link="https://openmatch.io">Talent Graph</LinkBtn>, is an
+      <LinkBtn link="https://inbetween.tech">Inbetween</LinkBtn>, is an
       innovative company with a mission to connect talent with the best
       opportunities. I am also learning GraphQL,Solidity and UI/UX design i just
       wanna get better and better. Before this, I used to work with different
