@@ -32,5 +32,18 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XZ86LZ27VZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XZ86LZ27VZ");
+    </script>
   </body>
 </html>
