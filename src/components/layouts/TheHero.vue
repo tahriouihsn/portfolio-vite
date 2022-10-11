@@ -19,7 +19,7 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm currently working for as a freelance. I recently worked on
+      I'm currently working for as a freelancer. I recently worked on
       <LinkBtn link="https://openmatch.io">OpenMatch</LinkBtn>, a job board with
       many features like matching... <br />Also im a good UI/UX designer.
     </p>

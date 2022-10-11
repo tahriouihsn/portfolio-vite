@@ -9,9 +9,21 @@ export const useProjectStore = defineStore("projectStore", {
         image: new URL("../assets/featured/openmatch.webp", import.meta.url)
           .href,
         description:
-          "I made this website for for talent graph company, A job board with many features out of the box.",
+          "I made this website for talent graph company, A job board with many features out of the box.",
         tech: ["Vue", "Nuxt", "Vuex", "Vuetify", "Stripe", "ApexCharts"],
-        link: "https://openmatch.io/",
+        link: null,
+        video:
+          '<div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/e6ttgk" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>',
+        featured: true,
+      },
+      {
+        id: 2,
+        name: "Remoteology",
+        image: new URL("../assets/featured/remoteology.webp", import.meta.url)
+          .href,
+        description: "I made this website , A job board for remote offers",
+        tech: ["Laravel", "Vue", "Inertia", "Tailwind", "Stripe"],
+        link: "https://jobs.hicaso.com/",
         featured: true,
       },
       // {

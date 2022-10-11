@@ -12,15 +12,33 @@
         :image="project.image"
         :description="project.description"
         :tech="project.tech"
+        @click="
+          project.link == null
+            ? ((showModal = true), (video = project.video))
+            : false
+        "
         :link="project.link"
       />
+      <vue-final-modal
+        v-model="showModal"
+        classes="modal-container"
+        content-class="modal-content"
+      >
+        <div class="" v-html="video"></div>
+        <button
+          class="modal-close bg-item_back h-8 w-8 rounded-full pb-[3px] hover:bg-item_hover_back"
+          @click="showModal = false"
+        >
+          x
+        </button>
+      </vue-final-modal>
     </div>
   </div>
 </template>
 <script>
 import { useProjectStore } from "../../store/projectStore";
 import ProjectItem from "../ui/ProjectItem.vue";
-
+import { $vfm, VueFinalModal, ModalsContainer } from "vue-final-modal";
 export default {
   setup() {
     const projectStore = useProjectStore();
@@ -28,6 +46,41 @@ export default {
 
     return { projects };
   },
-  components: { ProjectItem },
+  data() {
+    return {
+      showModal: false,
+      video: null,
+    };
+  },
+  components: { ProjectItem, VueFinalModal, ModalsContainer },
 };
 </script>
+<style>
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  position: relative;
+  width: 50%;
+  max-height: 65vh;
+  overflow: auto;
+  background-color: #202026;
+  border-radius: 4px;
+}
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: 8px 8px 0 0;
+  cursor: pointer;
+}
+.modal-close::hover {
+  color: gray;
+}
+</style>

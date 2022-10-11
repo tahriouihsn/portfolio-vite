@@ -14,7 +14,7 @@ module.exports = {
       head_text: "#eaeaea",
       navbar_back: "rgba(17, 17, 17, 0.8)",
       item_back: "#161616",
-      item_hover_back: "#1d1d1d",
+      item_hover_back: "#2a2a2a",
       action_back: "#242424",
       action_border: "#363636",
       border_sm: "rgba(54, 54, 54, 0.6)",
@@ -25,7 +25,7 @@ module.exports = {
       link_border_hover: "rgb(99,102,241, 0.4)",
       link_border: "#6c6c6c",
       link: "#d9d9d9",
-      background: "#111111",
+      background: "#202026",
       selectionBack: "rgba(40,41,96)",
     },
     fontFamily: {
