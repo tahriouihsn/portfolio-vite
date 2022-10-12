@@ -26,6 +26,16 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://jobs.hicaso.com/",
         featured: true,
       },
+      {
+        id: 6,
+        name: "Portfolio",
+        image: new URL("../assets/featured/portfolio.webp", import.meta.url)
+          .href,
+        description: "I made this portfolio for a client",
+        tech: ["HTML", "CSS", "Tailwind"],
+        link: "https://portfolioth.netlify.app/",
+        featured: true,
+      },
       // {
       //   id: 2,
       //   name: "Web3Hunter",
