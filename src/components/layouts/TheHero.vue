@@ -3,10 +3,7 @@
     <h1
       class="text-xl sm:text-3xl md:text-4xl md:leading-normal slg:text-5xl slg:leading-relaxed font-theme_bold text-head_text"
     >
-      Full Stack Developer & UI/UX Designer<span
-        class="text-link_text_hover"
-        >.</span
-      >
+      Full Stack Developer & UI/UX Designer
     </h1>
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
