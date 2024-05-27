@@ -24,7 +24,7 @@
         classes="modal-container"
         content-class="modal-content"
       >
-        <div class="" v-html="video"></div>
+      <iframe src="https://drive.google.com/file/d/1eV8LC5j_WZzfd8hTL7O0E8nEgkVp06A_/preview" class="responsive-iframe"  allow="autoplay"></iframe>
         <button
           class="modal-close bg-item_back h-8 w-8 rounded-full pb-[3px] hover:bg-item_hover_back"
           @click="showModal = false"
@@ -64,15 +64,32 @@ export default {
 .modal-content {
   position: relative;
   width: 50%;
+  min-height: 40vh;
   max-height: 65vh;
   overflow: auto;
   background-color: #202026;
   border-radius: 4px;
 }
+@media (max-width: 768px) {
+  .modal-content {
+  position: relative;
+  width: 90%;
+  min-height: 40vh;
+  max-height: 65vh;
+  overflow: auto;
+  background-color: #202026;
+  border-radius: 4px;
+}
+}
+.responsive-iframe {
+  width: 100%;
+  min-height: 40vh;
+}
+
 .modal-close {
   position: absolute;
-  top: 0;
-  right: 5px;
+  top: 5px;
+  right: 38px;
   display: flex;
   justify-content: center;
   align-items: center;

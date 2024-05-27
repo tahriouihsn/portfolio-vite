@@ -3,7 +3,7 @@
     <h1
       class="text-xl sm:text-3xl md:text-4xl md:leading-normal slg:text-5xl slg:leading-relaxed font-theme_bold text-head_text"
     >
-      Full stack developer , I love build different projects<span
+      Full Stack Developer & UI/UX Designer<span
         class="text-link_text_hover"
         >.</span
       >
@@ -11,17 +11,17 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm Tahrioui Hassan, a Morocco based full stack Developer , i
-      never-stopping love for learning new tech. I am specialising in Web
-      Development with Vue.js, Express, Node.js, PHP , Laravel,Python and
-      Django.
+      I'm Tahrioui Hassan, a Morocco-based full stack developer with a passion for creating dynamic and innovative web applications. With expertise in modern web technologies such as Vue.js, Express.js, Node.js, PHP, Laravel, Python, and Django, I build high-quality, scalable, and responsive websites.
     </p>
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm currently working for as a freelancer. I recently worked on
-      <LinkBtn link="https://openmatch.io">OpenMatch</LinkBtn>, a job board with
-      many features like matching... <br />Also im a good UI/UX designer.
+    I am dedicated to continuous learning and staying updated with the latest industry trends. Currently, I work as a freelance developer, delivering custom web solutions to clients. My recent project, OpenMatch, is a comprehensive job board platform featuring advanced job matching capabilities.
+    </p>
+    <p
+      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
+    >
+      In addition to my development skills, I excel in UI/UX design, ensuring user-friendly and visually appealing interfaces. Let's collaborate to bring your web projects to life with cutting-edge technology and design.
     </p>
   </div>
 </template>
