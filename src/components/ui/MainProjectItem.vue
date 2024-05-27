@@ -4,7 +4,7 @@
     <div class="flex flex-col w-5/6 items-left gap-6">
       <span class="font-theme_bold text-2xl text-head_text">{{ name }}</span>
       <p class="text-sm lg:text-lg">{{ description }}</p>
-      <ActionButton class="w-fit" :link="link">
+      <ActionButton class="w-fit" v-if="link" :link="link">
         {{ returnDomain(link) }}
         <Icon class="inline text-xl" icon="ep:top-right" color="#eaeaea" />
       </ActionButton>

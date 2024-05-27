@@ -2,6 +2,7 @@
   <a
     class="flex flex-col w-full p-6 py-6 lg:p-6 lg:py-10 items-center gap-8 rounded-md bg-item_back hover:bg-item_hover_back transition-colors border-[1px] border-border_sm cursor-pointer"
     target="_blank"
+    rel="noopener"
     :href="link"
   >
     <img
