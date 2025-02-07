@@ -1,87 +1,80 @@
 <template>
-  <div class="flex flex-col gap-8">
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      I'm Tahrioui Hassan, a Morocco based Vue.js Developer , i never-stopping
-      love for learning new tech. I am specialising in Web Development with
-      Vue.js, Express, Node.js, PHP , Laravel,Python and Django. I am passionate
-      about the Internet and how we can design beautiful looking interfaces with
-      programming languages.
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      I'm currently working on
-      <LinkBtn link="https://openmatch.io">OpenMatch.io</LinkBtn>, a job board
-      with new features. I recently worked on
-      <LinkBtn link="https://inbetween.tech">Inbetween</LinkBtn>, is an
-      innovative company with a mission to connect talent with the best
-      opportunities. I am also learning GraphQL,Solidity and UI/UX design i just
-      wanna get better and better. Before this, I used to work with different
-      companies and work on different projects with different programming
-      languages.
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      I started learning about web-development in my early middle-school, where
-      I was introduced to HTML and CSS. I quickly started writing small webpages
-      with simple HTML and little of CSS. After my high-school, I took some time
-      to myself and explored the web development world more and found many
-      frameworks. Out of all, I found my love for Vue.js and Laravel Stack.
-      Since then, I've been mastering it, and with every new project I try to
-      learn a new thing, like TailwindCSS ,Bootstrap , Vuetify, Primefaces,
-      ChakraUI, Vuex, Pinia, Express and more.
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      Now im a bootstrapper for SAAS Projects
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      You can find my projects on my
-      <LinkBtn link="https://github.com/tahriouihsn">Github</LinkBtn> or on my
-      <LinkBtn link="/">Portfolio</LinkBtn> page. I usually don't update my
-      portfolio page but all my recent one's are on github.
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      Outside of my worklife, I love to play Valorant and League of legends,
-      listening to Em. on Spotify, or just hanging out on Discord with my
-      friends. You can follow along about my life on my
-      <LinkBtn link="https://www.instagram.com/tahrioui.hsn/"
-        >Instagram</LinkBtn
+  <article 
+    class="flex flex-col gap-8"
+    itemscope 
+    itemtype="https://schema.org/AboutPage"
+  >
+    <meta itemprop="name" content="About Tahrioui Hassan - Laravel Full Stack Developer" />
+    <section class="bio" itemprop="mainContentOfPage">
+      <h1 class="sr-only">About Tahrioui Hassan - Laravel Developer</h1>
+      <div 
+        class="text-content"
+        itemprop="text"
       >
-      or <LinkBtn link="https://twitter.com/tahrioui_hassan">Twitter</LinkBtn>.
-      I post very rarely so you might not find many posts on either.
-    </p>
-    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
-    <div class="flex flex-col gap-5">
-      <h3 class="font-theme_bold text-head_text text-3xl">Experience</h3>
-      <div class="flex flex-col gap-8 py-4">
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          I'm Tahrioui Hassan, a Morocco-based Laravel Full Stack Developer specializing in building enterprise-grade web applications. With extensive expertise in Laravel's ecosystem, I create robust and scalable solutions using Laravel's advanced features including Eloquent ORM, Laravel Sanctum for API authentication, Laravel Echo for real-time applications, and Laravel Horizon for queue monitoring.
+        </p>
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          Currently, I'm leading development on 
+          <LinkBtn link="https://openmatch.io" itemprop="mentions">OpenMatch.io</LinkBtn>, 
+          an advanced job board platform built with Laravel and Vue.js, featuring complex backend systems for job matching and real-time notifications. Previously, I contributed to
+          <LinkBtn link="https://inbetween.tech" itemprop="mentions">Inbetween</LinkBtn>, 
+          where I implemented Laravel-based microservices and RESTful APIs. I'm expanding my expertise in Laravel's latest features, GraphQL integration, and modern architectural patterns like Domain-Driven Design (DDD) and CQRS.
+        </p>
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          My journey with Laravel began during my exploration of PHP frameworks, where I discovered Laravel's elegant syntax and powerful features. I've since mastered the entire Laravel ecosystem, including Laravel Mix for asset compilation, Laravel Dusk for browser testing, and Laravel Forge for deployment automation. My expertise extends to complementary technologies like Vue.js, TailwindCSS, and various Laravel packages for enhanced functionality.
+        </p>
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          Currently, I'm focused on developing innovative SaaS solutions using Laravel as the core framework, leveraging Laravel Cashier for subscription management and Laravel Nova for administration interfaces.
+        </p>
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          Explore my Laravel projects on 
+          <LinkBtn link="https://github.com/tahriouihsn" itemprop="sameAs">Github</LinkBtn> 
+          or my 
+          <LinkBtn link="/" itemprop="relatedLink">Portfolio</LinkBtn>. 
+          My repositories showcase various Laravel applications, from API-driven services to full-stack web applications.
+        </p>
+        <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
+          Beyond coding, I enjoy gaming (Valorant and League of Legends), music, and connecting with fellow developers on Discord. Follow my journey on 
+          <LinkBtn link="https://www.instagram.com/tahrioui.hsn/" itemprop="sameAs">Instagram</LinkBtn>
+          and <LinkBtn link="https://twitter.com/tahrioui_hassan" itemprop="sameAs">Twitter</LinkBtn>.
+        </p>
+      </div>
+    </section>
+
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" aria-hidden="true" />
+
+    <section 
+      class="flex flex-col gap-5"
+      itemscope 
+      itemtype="https://schema.org/WorkExperience"
+    >
+      <h2 class="font-theme_bold text-head_text text-3xl">Professional Experience</h2>
+      <div class="flex flex-col gap-8 py-4" role="list">
         <a
-          class="flex flex-col gap-1 sm:flex-row flex-nowrap justify-between items-start sm:gap-6"
           v-for="work in works"
           :key="work.id"
           :href="work.link"
+          class="flex flex-col gap-1 sm:flex-row flex-nowrap justify-between items-start sm:gap-6"
+          itemprop="hasOccupation"
+          itemscope
+          itemtype="https://schema.org/Occupation"
+          role="listitem"
         >
-          <span class="font-theme_bold text-head_text">{{ work.name }}</span>
+          <span class="font-theme_bold text-head_text" itemprop="name">{{ work.name }}</span>
           <span class="flex-[1_1_auto]"></span>
-          <span class="sm:text-right text-sm sm:text-base">{{
-            work.position
-          }}</span>
-          <span class="text-sm sm:text-base"
-            >{{ work.from }} - {{ work.to }}</span
-          >
+          <span class="sm:text-right text-sm sm:text-base" itemprop="occupationalCategory">{{ work.position }}</span>
+          <span class="text-sm sm:text-base">
+            <meta itemprop="startDate" :content="work.from" />
+            <meta itemprop="endDate" :content="work.to" />
+            {{ work.from }} - {{ work.to }}
+          </span>
         </a>
       </div>
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
+
 <script>
 import { useWorkStore } from "../store/workStore";
 
