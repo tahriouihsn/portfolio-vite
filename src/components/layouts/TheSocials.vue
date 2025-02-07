@@ -13,7 +13,7 @@
       />
       <SocialIcon
         title="Instagram"
-        link="https://www.instagram.com/tahrioui.hsn/"
+        link="https://www.instagram.com/tahrioui.hassan/"
         icon="ant-design:instagram-outlined"
       />
     </div>
