@@ -36,7 +36,7 @@
         </p>
         <p class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose">
           Beyond coding, I enjoy gaming (Valorant and League of Legends), music, and connecting with fellow developers on Discord. Follow my journey on 
-          <LinkBtn link="https://www.instagram.com/tahrioui.hsn/" itemprop="sameAs">Instagram</LinkBtn>
+          <LinkBtn link="https://www.instagram.com/tahrioui.hassan/" itemprop="sameAs">Instagram</LinkBtn>
           and <LinkBtn link="https://twitter.com/tahrioui_hassan" itemprop="sameAs">Twitter</LinkBtn>.
         </p>
       </div>
